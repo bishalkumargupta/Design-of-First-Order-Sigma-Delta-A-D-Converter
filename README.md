@@ -154,14 +154,6 @@ endmodule
   <img src="https://user-images.githubusercontent.com/86653033/157721856-169eaffd-7316-4779-b78b-91d532dde979.png">
 </p></br>
 
-- Comperator output
-
-<p align="center">
-  <img src="">
-</p></br>
-
-
-
 
 - After increaing the Frequency of the input</br>
 <p align="center">
@@ -172,7 +164,9 @@ endmodule
 ## Observation and Calculation</br>
 - It is being observed that for the Analog (sin) input to the block a bit stream output is being observed at the output </br>
 - For Integrator circuit selection of R and C is being taken usinf these formula</br>
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157722757-4a75566e-6a66-486e-be9a-a2b07ced9311.jpeg">
+</p></br>
 ## Result
 1-Bit Sigma-Delta ADC is being implemented on 180nm Technology using Ngspice Smulation Tool (It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.)
 </br>
