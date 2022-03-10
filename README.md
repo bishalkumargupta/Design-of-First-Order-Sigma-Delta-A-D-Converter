@@ -3,13 +3,6 @@
 ## Table of Contents
 
 - Abstract 
-- Introduction
-- Expected waveform
-- Circuit implementation of PFD block 
-- Circuit implementation of CP + LPF block
-- Circuit implementation of VCO block
-- Simulation Result
-- Conclusion
 - Author
 - Acknowledgements
 - References
@@ -36,20 +29,52 @@ Working:- Delta-sigma (ΔΣ; or sigma-delta, ΣΔ) modulation is a method for en
 ## Reference Circuit Diagram
 
 The fig. here represents the Model schematis that is to be implemented here.</br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/86653033/157710863-9af44ff6-366a-4f9a-b477-65410053102f.png">
+</p>
 
 ## Reference Waveform
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157711191-9ecedd2b-4e6c-467b-aa66-4af4ffeca81e.png">
+</p>
+
 
 ## Circuit Implementation</br>
 - Circuit implementation of op amp block</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157711842-89b099e1-b1c0-4cc9-bf94-b6b20cd8f896.png">
+</p>
+
 - Sub circuit creation of op-am</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157712083-05ea8869-9d7d-4c5b-90fd-12ae8c081808.png">
+</p>
+
 - Integrator block using LM 741</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157712359-2dbea07c-8bd5-4fd3-835f-b2f9de85d9cd.png">
+</p>
+
 - Differencial amplifier using LM741</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157712591-6d52565d-9dd9-4f4f-be75-28373bc693fa.png">
+</p>
+
+
 - D-FF Sub ckt cration (using verilog code)</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157713268-887ed548-8f7e-4214-b213-795586f58e7e.png">
+</p>
+
 - Cascaded Block</br>
 1-Bit ADC and 1-Bit DAC is being Instantiated (To improve the output Pre-defined op-amp LM741 is being instantiated)</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157713467-b264cdf4-4e22-4bf5-8a60-b8586b0b9abe.png">
+</p>
 
 ## Verilog implementaion of D-FlipFlop</br>
 - Code used</br>
+
 - Makerchip Display</br>
 
 ## Simulation Results and Observation</br>
