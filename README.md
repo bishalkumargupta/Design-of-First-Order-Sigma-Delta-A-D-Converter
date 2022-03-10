@@ -140,13 +140,33 @@ endmodule
 
 
 - Input and Output to the circuit</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157720901-54ce0114-dd87-4dae-890b-df5670c23600.png">
+</p>
 
 
 - Final results for each block</br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157721412-52e136e4-bd8e-47f9-83fa-abc23b96193a.png">
+</p></br>
+- Differentiator output
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86653033/157721856-169eaffd-7316-4779-b78b-91d532dde979.png">
+</p></br>
+
+- Comperator output
+
+<p align="center">
+  <img src="">
+</p></br>
+
+
 
 
 - After increaing the Frequency of the input</br>
-
+<p align="center">
+  <img src="">
+</p></br>
 
 
 ## Observation and Calculation</br>
