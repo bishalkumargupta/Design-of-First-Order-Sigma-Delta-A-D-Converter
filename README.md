@@ -3,6 +3,14 @@
 ## Table of Contents
 
 - Abstract 
+- Introduction
+- Reference Circuit Diagram
+- Reference Waveform
+- Circuit Implementation
+- Verilog implementaion of D-Latch
+- Simulation Results
+- Observation and Calculation
+- Result
 - Author
 - Acknowledgements
 - References
@@ -157,7 +165,7 @@ endmodule
 
 - After increaing the Frequency of the input</br>
 <p align="center">
-  <img src="">
+  <img src="https://user-images.githubusercontent.com/86653033/157723320-811a41c3-7af5-4723-83f9-66069c002c71.png">
 </p></br>
 
 
@@ -167,8 +175,10 @@ endmodule
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86653033/157722757-4a75566e-6a66-486e-be9a-a2b07ced9311.jpeg">
 </p></br>
-## Result
-1-Bit Sigma-Delta ADC is being implemented on 180nm Technology using Ngspice Smulation Tool (It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.)
+
+## Result</br>
+
+1-Bit Sigma-Delta ADC is being implemented for 50MHz operating frequency and is implemented on 180nm Technology using Ngspice Smulation Tool (It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.)
 </br>
 
 ## Author
@@ -186,7 +196,7 @@ Bishal Kumar Gupta, M.tech at Defence Institute of Advanced Technology-DRDO [in 
 
 
 ## References
-[1] H. Dadhich, V. Maurya, K. Verma and S. Jaiswal, "Design and analysis of different type of charge pump using CMOS technology," 2016 International Conference on Advances in Computing, Communications and Informatics (ICACCI), 2016, pp. 294-298, doi: 10.1109/ICACCI.2016.7732062.
-[2] Design of CMOS Integrator Circuit for Sigma Delta ADC for Aerospace Application
-[3] M. L. Ya et al., "Design and analysis of a first-order sigma-delta analog-to-digital converter for MEMS resistive sensor," 2010 IEEE International Conference on Semiconductor Electronics (ICSE2010), 2010, pp. 297-300, doi: 10.1109/SMELEC.2010.5549366.
-[4] https://www.beis.de/Elektronik/DeltaSigma/DeltaSigma.html
+[1] H. Dadhich, V. Maurya, K. Verma and S. Jaiswal, "Design and analysis of different type of charge pump using CMOS technology," 2016 International Conference on Advances in Computing, Communications and Informatics (ICACCI), 2016, pp. 294-298, doi: 10.1109/ICACCI.2016.7732062.</br>
+[2] Design of CMOS Integrator Circuit for Sigma Delta ADC for Aerospace Application</br>
+[3] M. L. Ya et al., "Design and analysis of a first-order sigma-delta analog-to-digital converter for MEMS resistive sensor," 2010 IEEE International Conference on Semiconductor Electronics (ICSE2010), 2010, pp. 297-300, doi: 10.1109/SMELEC.2010.5549366.</br>
+[4] https://www.beis.de/Elektronik/DeltaSigma/DeltaSigma.html</br>
