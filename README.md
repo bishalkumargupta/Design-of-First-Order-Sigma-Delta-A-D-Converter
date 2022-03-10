@@ -61,7 +61,7 @@ The fig. here represents the Model schematis that is to be implemented here.</br
 </p>
 
 
-- D-FF Sub ckt cration (using verilog code)</br>
+- D-Latch Sub ckt cration (using verilog code)</br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86653033/157713268-887ed548-8f7e-4214-b213-795586f58e7e.png">
 </p>
@@ -72,10 +72,26 @@ The fig. here represents the Model schematis that is to be implemented here.</br
   <img src="https://user-images.githubusercontent.com/86653033/157713467-b264cdf4-4e22-4bf5-8a60-b8586b0b9abe.png">
 </p>
 
-## Verilog implementaion of D-FlipFlop</br>
+## Verilog implementaion of D-Latch</br>
 - Code used</br>
-
+module d_latch (  input d,           // 1-bit input pin for data  
+                  input en,          // 1-bit input pin for enabling the latch  
+                  input rstn,        // 1-bit input pin for active-low reset  
+                  output reg q);     // 1-bit output pin for data output  
+  
+   // This always block is "always" triggered whenever en/rstn/d changes  
+   // If reset is asserted, then the output will be zero   
+   // Else as long as enable is high, output q follows input d  
+  
+   always @ (en or rstn or d)  
+      if (!rstn)  
+         q <= 0;  
+      else  
+         if (en)  
+            q <= d;  
+endmodule   
 - Makerchip Display</br>
+
 
 ## Simulation Results and Observation</br>
 - D-FF USING VERILOG on MAKERCHIP</br>
@@ -96,8 +112,17 @@ The fig. here represents the Model schematis that is to be implemented here.</br
 Bishal Kumar Gupta, M.tech at Defence Institute of Advanced Technology-DRDO [in collaboration with NIELIT CALICUT] with specialization in VLSI and Embedded Systems, Department of Electronics Engineering.
 
 ## Acknowledgements
+- Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
 
+- FOSSEE, IIT Bombay
+
+- Steve Hoover (Founder, Redwood EDA)
+
+- Sumanto Kar (eSim Team, FOSSEE, IIT Bombay)
 
 
 ## References
-
+[1] H. Dadhich, V. Maurya, K. Verma and S. Jaiswal, "Design and analysis of different type of charge pump using CMOS technology," 2016 International Conference on Advances in Computing, Communications and Informatics (ICACCI), 2016, pp. 294-298, doi: 10.1109/ICACCI.2016.7732062.
+[2] Design of CMOS Integrator Circuit for Sigma Delta ADC for Aerospace Application
+[3] M. L. Ya et al., "Design and analysis of a first-order sigma-delta analog-to-digital converter for MEMS resistive sensor," 2010 IEEE International Conference on Semiconductor Electronics (ICSE2010), 2010, pp. 297-300, doi: 10.1109/SMELEC.2010.5549366.
+[4] https://www.beis.de/Elektronik/DeltaSigma/DeltaSigma.html
